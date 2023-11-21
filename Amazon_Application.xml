@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false"  name="Amazon-Suite">
+  <test name="Amazon-Test">
+    <classes>
+		<!-- Program 1: Checkout_Process_Through_Invalid_Coupon_Codes -->
+            <class name="Amazon_Application.Checkout_Process_Through_Invalid_Coupon_Codes">
+                <methods>
+                    <include name="Checkout_Negative_Scenario_Validation"/>
+                </methods>
+            </class>
+            
+      <!-- Program 2: Homepage_and_Navigations -->
+            <class name="Amazon_Application.Homepage_and_Navigations">
+                <methods>
+                    <include name="Homepage_and_Navigation_on_Homepage"/>
+                </methods>
+            </class>
+            
+            
+       <!-- Program 3: Login_Functionality -->
+            <class name="Amazon_Application.Login_Functionality">
+                <methods>
+                    <include name="Login_Functionality_Check"/>
+                </methods>
+            </class>
+            
+       <!-- Program 4: Product_Search_through_Search_Bar -->
+            <class name="Amazon_Application.Product_Search_through_Search_Bar">
+                <methods>
+                    <include name="Product_Search_Via_Search_Bar"/>
+                </methods>
+            </class>
+            
+            
+           <!-- Program 5: Save_For_Later_Functionality -->
+            <class name="Amazon_Application.Save_For_Later_Functionality">
+                <methods>
+                    <include name="Save_For_Later_Functionality_Check"/>
+                </methods>
+            </class>
+            
+            <!-- Program 6: User_Address_Management -->
+            <class name="Amazon_Application.User_Address_Management">
+                <methods>
+                    <include name="User_Address_Details_Management"/>
+                </methods>
+            </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
